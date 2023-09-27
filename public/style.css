@@ -1,0 +1,66 @@
+body {
+    background-image: url('images/background.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.container {
+    font-family: 'Roboto', sans-serif;
+    font-size: large;
+    color: whitesmoke;
+    text-align: center;
+    margin-top: 130px;
+    z-index: 1;
+    outline-color: black;
+}
+  
+.form-container {
+    color: whitesmoke;
+    outline-color: black;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+}
+  
+.form-container input {
+    /* margin-bottom: 0.01px; */
+    width: 300px; 
+    height: 20px; 
+    border-radius: 5px;
+}
+
+.pic-container input{
+    color: whitesmoke;
+    position: absolute;
+    top: 73%;
+    left: 55%;
+    transform: translate(-50%, -50%);
+}
+
+.submit-container input{
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+  
+/* .form-container input {
+    margin-bottom: 10px;
+    display: flex;
+     justify-content: center;
+     align-items: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+} */
+  
+  
